@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.calculate {
+    width: 180px;
+    height: 300px; 
+    padding: 10px; 
+    border: 1px solid #f0d137;
+    border-radius: 10px; 
+    background-color: #ffdf3e;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    box-shadow: 0px 5px 0px 5px #d0b427;
+}
+
+.display {
+    height: 50px; 
+    padding: 0;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden; 
+}
+
+.process {
+    font-size: 15px;
+    color: lightgray;
+    margin: 0; 
+}
+
+.result {
+    font-size: 25px;
+    text-align: right;
+    margin: 0; 
+    padding: 5px; 
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2px; 
+    justify-content: center; 
+    width: 100%; 
+}
+
+button {
+    width: 35px; 
+    height: 35px; 
+    background-color: white; 
+    border: 1px solid darkgray;
+    box-shadow: 0px 3px 0px 0px rgb(113, 107, 107);
+    border-radius: 50%; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(219, 219, 219); 
+    box-shadow: 0px 1px 0px 0px rgb(113, 107, 107);
+}
+
+.btn-AC {
+    background-color: rgb(225, 81, 81);
+    color: white; 
+    border: 1px solid rgb(162, 38, 38);
+    box-shadow: 0px 3px 0px 0px rgb(157, 19, 19);
+}
+
+.btn-AC:hover {
+    background-color: rgb(201, 50, 50); 
+    box-shadow: 0px 1px 0px 0px rgb(157, 19, 19);
+}
+
+
+.btn-number {
+    background-color: darkgray;
+    color: black;
+    border: 1px solid rgb(168, 168, 168);
+    box-shadow: 0px 3px 0px 0px rgb(16, 1, 1);
+}
+
+.btn-number:hover{
+    background-color: rgb(132, 132, 132);
+    box-shadow: 0px 1px 0px 0px rgb(16, 1, 1);
+}
